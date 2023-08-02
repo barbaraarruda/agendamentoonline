@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Agendamento Online</title>
+</head>
+<body>
+    <div class="container">
+        <div class="form-image">
+            <img src="assets/img/undraw_doctor_kw-5-l.svg" alt="">
+        </div>
+        <div class="form">
+            <form action="#">
+                <div class="form-header">
+                    <div class="title">
+                        <h1>Agendamento Online</h1>
+                    </div>
+                    <div class="login-button">
+                        <button><a href="#">Entrar</a></button>
+                    </div>
+                </div>
+                <div class="input-group">
+                    <div class="input-box">
+                        <label for="firstname">Primeiro nome</label>
+                        <input type="text" name="firstname" id="firstname" placeholder="Digite seu primeiro nome" required>
+                    </div>
+                    <div class="input-box">
+                        <label for="lastname">Último nome</label>
+                        <input type="text" name="lastname" id="lastname" placeholder="Digite seu sobrenome" required>
+                    </div>
+                    <div class="input-box">
+                        <label for="email">E-mail</label>
+                        <input type="text" name="email" id="email" placeholder="Digite seu email" required>
+                    </div>
+                    <div class="input-box">
+                        <label for="number">Celular</label>
+                        <input type="tel" name="number" id="celular" placeholder="(xx) xxxx-xxxx" required>
+                    </div>
+                    <div class="input-box">
+                        <label for="datenasc">Data de Nascimento</label>
+                        <input type="date" name="datenasc" id="datenasc" placeholder="" required>
+                    </div>
+                    <div class="input-box">
+                        <label for="doctor">Nome do Médico(a)</label>
+                        <input type="text" name="service" id="Service" placeholder="" required>
+                    </div>
+                </div>
+                <div class="consulta-inputs">
+                    <div class="consulta-title">
+                        <h6>Consultas</h6>
+                    </div>
+                    <div class="consulta-group">
+                        <div class="consulta-input">
+                            <input type="radio" id="primeira" name="consulta">
+                            <label for="primeira">Primeira Consulta</label>
+                        </div>
+                        <div class="consulta-input">
+                            <input type="radio" id="normal" name="consulta">
+                            <label for="normal">Consulta</label>
+                        </div>
+                        <div class="consulta-input">
+                            <input type="radio" id="retorno" name="consulta">
+                            <label for="retorno">Retorno</label>
+                        </div>
+                        <div class="consulta-input">
+                            <label for="data">Data</label>
+                            <input type="date" id="data" name="consulta">
+                           
+                        </div>
+                    </div>
+                    <div class="continue-button">
+                        <button onclick="alert('Pré-agendamento realizado com sucesso! Aguarde retorno.')"><a href="#">Agendar</a></button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
